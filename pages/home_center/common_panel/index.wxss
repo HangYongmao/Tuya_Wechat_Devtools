@@ -1,0 +1,209 @@
+/* miniprogram/pages/home_center/common_panel/index.js.wxss */
+/*
+.common-panel-backgroud {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+	height: 320px;
+	background-color: #27c3d9;
+}
+
+.common-panel-header {
+  z-index: 1;
+  width: 100%;
+  height: 256px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-panel-header-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.common-panel-header-dpName {
+	width: 160px;
+  height: 25px;
+  text-align: center;
+	font-family: HelveticaNeue;
+	font-size: 12px;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+	color: #fff;
+}
+
+.common-panel-header-dpValue {
+	width: 114px;
+	height: 75px;
+  font-family: DINCondensed-Bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+	font-size: 74px;
+	color: #fff;
+}
+
+.roDpItem-normal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 54px;
+  padding: 16px 2px;
+}
+
+.roDpItem-normal:not(:last-child) {
+  border-right: solid 1px #d6d6d6;
+}
+
+.roDpItem-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 54px;
+  padding: 16px 33px;
+}
+
+.roDpItem-two:not(:last-child) {
+  border-right: solid 1px #d6d6d6;
+}
+
+.roDpItem-one {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  height: 64px;
+  padding: 20px 24px;
+  background-color: #fff;
+  border-radius: 14px;
+}
+
+.roDpItem-dpName {
+  flex: 1;
+  width: 115px;
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(80, 80, 80, 0.5);
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.roDpItem-status {
+  width: 115px;
+  text-align: center;
+  font-family: PingFangSC-Semibold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #505050;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.statuslist {
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+  line-height: 12px;
+  flex-wrap: wrap;
+}
+
+.scroll-view {
+  padding: 16px 8px;
+  width: auto;
+  height: 100%;
+}
+*/
+
+/* HYM */
+
+.common-panel-backgroud {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+	height: 100%;
+	background-color: rgb(59, 114, 197);
+}
+
+/*顶部 大图标*/
+.top_col {
+  overflow: hidden;
+  margin-bottom: 0;
+  width: 100%;
+  position: fixed;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.top_image {
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+.top_content{
+  display: flex;
+  color: rgb(255,255,255);
+  font-size:25px;
+  justify-content: center;
+}
+
+/*中间 电压 功率 电流*/
+.center_col {
+  overflow: hidden;
+  margin-bottom: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.center_block {
+  display: flex;
+  flex-direction: column;
+  width: 130rpx;
+  align-items: center;
+  margin-left: 45rpx;
+  margin-right: 45rpx;
+  margin-bottom: 10rpx;
+  color: rgb(255,255,255);
+  font-size:20px;
+}
+
+/* 底部 按钮 */
+.bottom_col {
+  overflow: hidden;
+  margin-bottom: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom_block {
+  display: flex;
+  flex-direction: column;
+  width: 130rpx;
+  align-items: center;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  color: rgb(255,255,255);
+  font-size:20px;
+}
+
+.bottom_image {
+  display: flex;
+  width: 80rpx;
+  height: 80rpx;
+}
